@@ -1,0 +1,242 @@
+@import "nullstyle.css";
+
+@font-face {
+   font-family: "Friz Quadrata";
+   src: url(../fonts/FrizQuadrataCTT.woff) format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: "Friz Quadrata";
+   src: url(../fonts/FrizQuadrataCTT\ Bold.woff) format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+.wrapper {
+   background: url(../img/miyagi-fon.png) no-repeat fixed;
+}
+.main {
+   font-family: "Friz Quadrata";
+   max-width: 1000px;
+   margin: 0px auto;
+   color: #97a0c4;
+}
+.main .footer {
+   margin: 40px 0 0 0;
+   padding: 0px 0px 40px 0px;
+}
+.text div {
+   margin: 40px 0px 0px 0px;
+}
+.text h1 {
+   font-size: 40px;
+   font-weight: 700;
+   text-align: center;
+   color: #6f7daa;
+}
+.text h2 {
+   font-size: 25px;
+   font-weight: 700;
+   margin: 0px 0px 10px 0px;
+}
+.text-miyagi {
+   background: url(../img/miyagi.jpg) right 35px/220px 250px no-repeat;
+   padding: 0px 220px 0px 0px;
+}
+
+.text-andy-panda-2 {
+   background: url(../img/andy.jpg) left 0px/220px 280px no-repeat;
+   padding: 0px 0px 0px 230px;
+}
+.history {
+   background: url(../img/miyagi_andy.jpg) left bottom / 150px 200px no-repeat,
+      url(../img/miyagi_andy_4.jpg) right top/ 150px 200px no-repeat,
+      url(../img/miyagi_andy_2.jpg) center / 250px 350px no-repeat,
+      url(../img/miyagi_andy_3.jpg) center / cover no-repeat;
+}
+.hajime {
+   background: radial-gradient(
+      circle,
+      rgba(119, 142, 162, 0.5158438375350141) 0%,
+      rgba(9, 64, 121, 0.006039915966386533) 77%,
+      rgba(0, 212, 255, 0) 100%
+   );
+}
+.life {
+   background: url(../img/fon.png) 0 0/ 200px repeat-x;
+}
+.wrapper-2,
+.wrapper-3 {
+   max-width: 810px;
+   margin: 0px auto;
+   font-family: "lato";
+   font-size: 16px;
+   color: #424551;
+}
+.header-2 {
+   margin: 20px 0px 0px 0px;
+}
+.menu-list {
+   width: 450px;
+   display: inline-block;
+   margin: 0px 0px 0px 60px;
+}
+.menu-list li {
+   display: inline-block;
+   font-weight: bold;
+
+   line-height: 160%;
+}
+.menu-list-2,
+.menu-list-blog {
+   padding: 0px 0px 0px 40px;
+}
+.menu-list .menu-list-blog {
+   color: #ff3f3a;
+}
+.title {
+   margin: 51px 0px 0px 0px;
+}
+.title-signature-text-1 {
+   display: inline-block;
+   min-width: 85px;
+   padding: 0px 0px 0px 24px;
+   background: url(../img/icon/Vector.svg) left no-repeat, url(../img/icon/divider.png) right no-repeat;
+}
+.title-signature-text-2 {
+   display: inline-block;
+   font-weight: bold;
+   line-height: 1.6;
+   color: #ff3f3a;
+   margin: 0px 0px 0px 12px;
+}
+.title-title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   margin: 12px 0px 0px 0px;
+}
+.title-signature-2 {
+   margin: 26px 0px 0px 0px;
+   line-height: 1.6;
+   color: #787a80;
+}
+.title-signature-2-text-1 {
+   display: inline-block;
+   text-align: right;
+   background: url(../img/icon/Stroke.png) left no-repeat;
+   padding: 0px 0px 0px 24px;
+}
+.title-signature-2-text-2 {
+   display: inline-block;
+   text-align: right;
+   margin: 0px 0px 0px 24px;
+   background: url(../img/icon/Union.png) left no-repeat;
+   padding: 0px 0px 0px 24px;
+}
+.title-img {
+   margin: 40px 0px 0px 0px;
+}
+.text-2 {
+   margin: 60px 0px 0px 0px;
+   line-height: 1.6;
+}
+.p-1 {
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1.5;
+   color: #1e212c;
+}
+.p-2 {
+   margin: 24px 0px 0px 0px;
+}
+.p-3 {
+   margin: 30px 0px 0px 0px;
+}
+.p-4 {
+   margin: 48px 0px 0px 0px;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 1.5;
+   background: url(../img/braces.png) top left no-repeat;
+   padding: 0px 0px 0px 60px;
+   color: #1e212c;
+}
+.p-5 {
+   margin: 48px 0px 0px 0px;
+}
+.text-list {
+   margin: 24px 0px 0px 0px;
+}
+.text-list li {
+   background: url(../img/Vector.png) 0 8px no-repeat;
+   padding: 0px 0px 0px 32px;
+}
+.p-6 {
+   margin: 24px 0px 0px 0px;
+}
+.footer-2,
+.footer-3 {
+   margin: 40px 0px 0px 0px;
+   padding: 0px 0px 40px 0px;
+}
+.button-link {
+   background: rgb(196, 179, 179);
+   font-size: 20px;
+   border-radius: 40px;
+   box-shadow: 5px 5px 5px 3px #1e212c;
+   padding: 15px;
+   color: #fff;
+   display: block;
+   width: 200px;
+   text-align: center;
+}
+.wrapper-3 {
+   margin: 180px auto;
+}
+.subtitle-3 {
+   font-weight: bold;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #1e212c;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+.title-3 {
+   margin: 8px 0px 0px 0px;
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   color: #1e212c;
+}
+.content-3-list {
+   width: 390px;
+   margin: 40px 0px 0px 0px;
+}
+.content-3-list li {
+   line-height: 1.6;
+   background: url(../img/Vector.png) 0 5px no-repeat;
+   padding: 0px 0px 0px 32px;
+   margin: 12px 0px 0px 0px;
+}
+.button-3 {
+   margin: 48px 0px 0px 0px;
+}
+.button-3-link {
+   display: inline-block;
+   width: 161px;
+   height: 44px;
+   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+   border-radius: 4px;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 44px;
+   text-align: center;
+   letter-spacing: 0.5px;
+   color: #ffffff;
+}
+.button-link.button-link-2 {
+   margin: 15px 0px 0px 0px;
+}
